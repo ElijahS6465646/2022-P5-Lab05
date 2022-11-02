@@ -21,10 +21,10 @@ public class Lab05vst extends Applet {
             x2 -= 21;
             y1 -= 13;
         }
-        x1 = 10;
+
         y1 = 640;
         x2 = 990;
-        y2 = 640;
+
 
         while (x1 < 990) {
             g.drawLine(x1, y1, x2, y2);

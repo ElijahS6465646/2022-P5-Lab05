@@ -1,17 +1,12 @@
-// Lab05vst.java
-// This is the student, starting version of the Lab05 assignment.
 
+public class Temp{
+    public static void main(String[]args) {
+        for (int row = 1; row < 6; row++) {
+            for (int x = 0; x < row; x++) {
+                System.out.print("*");
+            }
 
-import java.awt.*;
-import java.applet.*;
-
-
-public class Temp extends Applet
-{
-    public void paint(Graphics g)
-    {
-
-
-
+            System.out.println();
+        }
     }
 }
